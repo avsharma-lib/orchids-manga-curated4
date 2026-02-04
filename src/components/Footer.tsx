@@ -75,12 +75,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom */}
-<div className="mt-12 pt-8 border-t border-white/10 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-  <p className="text-xs text-[var(--stone)]">
-    &copy; {new Date().getFullYear()} Inkai. All rights reserved.
-  </p>
-
+        
+{/* Bottom */}
+<div className="mt-12 pt-8 border-t border-white/10 flex justify-center">
   <p className="text-xs text-[var(--stone)]">
     Made with ❤️ by{" "}
     <a
@@ -93,3 +90,7 @@ export default function Footer() {
     </a>
   </p>
 </div>
+      </div>
+    </footer>
+  );
+}
