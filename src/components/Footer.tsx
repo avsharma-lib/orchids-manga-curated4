@@ -76,12 +76,20 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="mt-12 pt-8 border-t border-white/10">
-          <p className="text-xs text-[var(--stone)]">
-            &copy; {new Date().getFullYear()} Inkai. All rights reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
-  );
-}
+<div className="mt-12 pt-8 border-t border-white/10 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+  <p className="text-xs text-[var(--stone)]">
+    &copy; {new Date().getFullYear()} Inkai. All rights reserved.
+  </p>
+
+  <p className="text-xs text-[var(--stone)]">
+    Made with ❤️ by{" "}
+    <a
+      href="https://sovereignsites.in"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-[var(--paper)] transition-colors"
+    >
+      Sovereign Sites
+    </a>
+  </p>
+</div>
