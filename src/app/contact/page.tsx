@@ -51,7 +51,7 @@ export default function ContactPage() {
                   <p className="flex items-center gap-4 text-lg text-[var(--stone)] group">
                     <span className="w-12 h-px bg-[var(--mist)] group-hover:w-16 group-hover:bg-[var(--crimson)] transition-all" />
                     <a href="mailto:inkai@gmail.com" className="hover:text-[var(--ink)] transition-colors">
-                      inkai@gmail.com
+                      inkaimangastore@gmail.com
                     </a>
                   </p>
                 </div>
